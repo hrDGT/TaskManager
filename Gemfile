@@ -63,6 +63,9 @@ group :development, :test do
 
   # RSpec tests for Rails [https://github.com/rspec/rspec-rails]
   gem 'rspec-rails', '~> 7.0.0'
+
+  # Generating fake data [https://github.com/faker-ruby/faker]
+  gem 'faker'
 end
 
 group :development do
