@@ -63,6 +63,9 @@ group :development, :test do
 
   # RSpec tests for Rails [https://github.com/rspec/rspec-rails]
   gem 'rspec-rails', '~> 7.0.0'
+
+  # Simulating how a real user would interact with app [https://github.com/teamcapybara/capybara]
+  gem 'capybara'
 end
 
 group :development do
