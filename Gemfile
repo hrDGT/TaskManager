@@ -63,6 +63,9 @@ group :development, :test do
 
   # RSpec tests for Rails [https://github.com/rspec/rspec-rails]
   gem 'rspec-rails', '~> 7.0.0'
+
+  # Run Selenium tests more easily with automatic installation and updates for all supported webdrivers [https://github.com/titusfortner/webdrivers]
+  gem 'webdrivers', '~> 5.0', require: false
 end
 
 group :development do
