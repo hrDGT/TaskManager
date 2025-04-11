@@ -64,7 +64,7 @@ group :development, :test do
   # RSpec tests for Rails [https://github.com/rspec/rspec-rails]
   gem 'rspec-rails', '~> 7.0.0'
 
-  # Set of gems containing strategies for cleaning database 
+  # Set of gems containing strategies for cleaning database
 end
 
 group :development do
@@ -73,7 +73,6 @@ group :development do
 end
 
 group :test do
-  # Set of gems containing strategies for cleaning database [https://github.com/DatabaseCleaner/database_cleaner]
+  # Cleaning ActiveRecord data [https://github.com/DatabaseCleaner/database_cleaner-active_record]
   gem 'database_cleaner-active_record'
-  gem 'database_cleaner-redis'
 end
