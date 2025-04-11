@@ -63,6 +63,9 @@ group :development, :test do
 
   # RSpec tests for Rails [https://github.com/rspec/rspec-rails]
   gem 'rspec-rails', '~> 7.0.0'
+
+  # RSpec one-line tests [https://github.com/thoughtbot/shoulda-matchers]
+  gem 'shoulda-matchers', '~> 6.0'
 end
 
 group :development do
