@@ -69,3 +69,8 @@ group :development do
   # Use console on exceptions pages [https://github.com/rails/web-console]
   gem 'web-console'
 end
+
+group :test do
+  # Code coverage analysis tool [https://github.com/DatabaseCleaner/database_cleaner]
+  gem 'simplecov', require: false
+end
