@@ -63,12 +63,14 @@ group :development, :test do
 
   # RSpec tests for Rails [https://github.com/rspec/rspec-rails]
   gem 'rspec-rails', '~> 7.0.0'
-
-  # Brings back assigns and assert_template [https://github.com/rails/rails-controller-testing]
-  gem 'rails-controller-testing'
 end
 
 group :development do
   # Use console on exceptions pages [https://github.com/rails/web-console]
   gem 'web-console'
+end
+
+group :test do
+  # Brings back assigns and assert_template [https://github.com/rails/rails-controller-testing]
+  gem 'rails-controller-testing'
 end
